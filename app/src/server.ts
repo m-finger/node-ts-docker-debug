@@ -3,7 +3,7 @@ import * as bodyParser from 'body-parser';
 
 const app = express();
 
-app.listen(8000, () => console.log('Server running on 8000!'));
+app.listen(8080, () => console.log('Server running on 8080!'));
 
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({extended: true})); // support encoded bodies

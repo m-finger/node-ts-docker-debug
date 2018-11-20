@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --inspect=9229 --require ts-node/register src/server.ts",
+    "start": "node --inspect=172.17.0.2:9229 --require ts-node/register src/server.ts",
     "dev": "./node_modules/nodemon/bin/nodemon.js",
     "test": "jest",
     "test:watch": "jest --watch"
